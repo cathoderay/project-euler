@@ -8,4 +8,4 @@
 #       http://www.trans4mind.com/personal_development/mathematics/series/sumNaturalSquares.htm 
 
 
-print 5050**2 - sum(map(lambda x: x*x, range(101)))
+print 5050**2 - sum([x*x for x in range(101)])
