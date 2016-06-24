@@ -3,6 +3,7 @@
 # Description: http://projecteuler.net/problem=4
 #
 
+# Idea: brute force + cutoff threshold (900)
 
 def is_palindrome(n):
     n = str(n)
@@ -11,7 +12,7 @@ def is_palindrome(n):
     return len(n) == 0
 
 
-print max([i*j for i in range(999, 900, -1) 
-               for j in range(i, 900, -1)
+print max([i*j for i in range(900, 1000) 
+               for j in range(i, 1000)
                if is_palindrome(i*j)])
 
