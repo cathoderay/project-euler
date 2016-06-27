@@ -1,3 +1,9 @@
+#
+# File: 7.py
+# Description: http://projecteuler.net/problem=7
+#
+
+
 from math import sqrt
 
 
