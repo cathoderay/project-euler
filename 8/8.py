@@ -1,3 +1,8 @@
+#
+# File: 8.py
+# Description: http://projecteuler.net/problem=8
+#
+
 from sys import stdin
 from operator import mul
 
